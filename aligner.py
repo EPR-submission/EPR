@@ -12,8 +12,8 @@ def get_args():
     parser.add_argument("--do_train", action="store_true")
     parser.add_argument("--do_dev", action="store_true")
     parser.add_argument("--do_test", action="store_true")
-    parser.add_argument("--encoding_cache_path", type=str, default='./save_encoding/snli/token1/')
-    parser.add_argument("--save_encoding_path", type=str, default='./save_encoding/snli/alignment1/')
+    parser.add_argument("--encoding_cache_path", type=str, default='./save_encoding/snli/token/')
+    parser.add_argument("--save_encoding_path", type=str, default='./save_encoding/snli/alignment/')
     args = parser.parse_args()
     return args
 

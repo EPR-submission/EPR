@@ -16,7 +16,7 @@ def get_args():
     parser.add_argument("--load_checkpoint", action="store_true")
     parser.add_argument("--model_cache_path", type=str, default="./save_model/snli/")
     parser.add_argument("--encoding_cache_path", type=str, default='./save_encoding/snli/alignment/')
-    parser.add_argument("--model_name", type=str, default='Model_cat')
+    parser.add_argument("--model_name", type=str, default='Model_test')
     parser.add_argument("--c_ratio", type=float, default=1)
     parser.add_argument("--cat", action="store_true")
     args = parser.parse_args()

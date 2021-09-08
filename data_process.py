@@ -13,7 +13,7 @@ def get_args():
     parser.add_argument("--do_dev", action="store_true")
     parser.add_argument("--do_test", action="store_true")
     parser.add_argument("--data_path", type=str, default="../data/snli_1.0/")
-    parser.add_argument("--save_encoding_path", type=str, default="./save_encoding/snli/token1/")
+    parser.add_argument("--save_encoding_path", type=str, default="./save_encoding/snli/token/")
     args = parser.parse_args()
     return args
 

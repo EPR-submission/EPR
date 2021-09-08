@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import numpy as np
 from tqdm import tqdm
-from model_batch_version import InduceFunction, ScoreModel, EmbeddingModel, InteractModel
+from model_batch_version import InduceFunction, InteractModel
 from data_loader import DataLoader, insert_embedding_to_batch
 import pickle
 import json
